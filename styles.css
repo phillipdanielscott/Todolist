@@ -1,0 +1,58 @@
+.discription {
+  height: 89px;
+  display: block;
+  margin-left: 54%;
+
+}
+.toDocontainer{
+  border: 2px solid red;
+    width: 45%;
+    height: 313px;
+    display: block;
+    position: relative;
+    margin-left: 25%;
+
+}
+.activity{
+  height: 8%;
+  margin-left: 54%;
+
+}
+.inputButton {
+  margin-left: 54%;
+  width: 25%;
+    background-color: skyblue;
+    height: 9%;
+
+}
+.deleteButton{
+  margin-left: 54%;
+  width: 25%;
+    background-color: skyblue;
+    height: 9%;
+}
+.List{
+  border: 2px solid red;
+  float: left;
+      position: relative;
+      bottom: 160px;
+      height: 46%;
+      width: 53%;
+      text-align: left;
+
+}
+.finishedList {
+  border: 2px solid red;
+  float: left;
+      position: relative;
+      bottom: 160px;
+      height: 51%;
+      width: 53%;
+}
+
+a {
+    margin-left: 20px;
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+}
