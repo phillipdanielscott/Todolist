@@ -110,5 +110,14 @@ var phillipstodos = {
 
        }
     });
-  }
+  },
+
+templification: function(template) {
+    return _.template(template);
+  },
+
+   htmlGenerator: function(template,data) {
+     var tmpl = toDo.templification(template);
+     return tmpl(data);
+   }
 };
