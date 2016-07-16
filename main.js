@@ -1,6 +1,5 @@
 
 $(document).ready(function() {
-  debugger
   phillipstodos.init();
 })
 
@@ -32,22 +31,22 @@ var phillipstodos = {
 
     $('.List').on('click', 'li', function(event){
       event.preventDefault();
-      console.log("ON THE DONE LIST!", this)
+      console.log("voodoo!", this)
       var toFinishedlist = $('a').val();
       $(".finishedList").append(this);
 
     })
 
 
-    $('.inputButton').on('click', function(event) {
-        event.preventDefault();
-        console.log("INDEED");
-        window.glob = $(this);
-        var todo = $('.discription').val();
-        $('.List').append("<li>" + todo + '<a href="">x</a></li>');
+    // $('.inputButton').on('click', function(event) {
+    //     event.preventDefault();
+    //     console.log("INDEED");
+    //     window.glob = $(this);
+    //     var todo = $('.discription').val();
+    //     $('.List').append("<li>" + todo + '<a href="">x</a></li>');
 
 
-    })
+    // })
 
     $('.List').on('click', 'li', function(event){
       event.preventDefault();

@@ -1,3 +1,19 @@
+
+
+body{
+  background-color: #FFF3DC;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  color: #7690B2;
+  text-align: center;
+  position: relative;
+  bottom: -172px;
+  left: -26px;
+}
+
+
 .discription {
   height: 89px;
   display: block;
@@ -5,17 +21,23 @@
 
 }
 .toDocontainer{
-  border: 2px solid red;
+  background-color: #E5DAC6;
+  /*border: 2px solid red;*/
     width: 45%;
     height: 313px;
     display: block;
     position: relative;
     margin-left: 25%;
+    top: 168px;
+    -webkit-box-shadow: 0px 36px 44px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 36px 44px -19px rgba(0,0,0,0.75);
+    box-shadow: 0px 36px 44px -19px rgba(0,0,0,0.75);
 
 }
 .activity{
-  height: 8%;
+  height: 6%;
   margin-left: 54%;
+  width: 43%;
 
 }
 .inputButton {
@@ -32,22 +54,23 @@
     height: 9%;
 }
 .List{
-  border: 2px solid red;
-  float: left;
-      position: relative;
-      bottom: 160px;
-      height: 46%;
-      width: 53%;
-      text-align: left;
-
+  /*border: 2px solid red;*/
+float: left;
+position: relative;
+bottom: 59px;
+height: 46%;
+width: 53%;
+text-align: left;
+overflow: scroll;
 }
 .finishedList {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   float: left;
-      position: relative;
-      bottom: 160px;
-      height: 51%;
-      width: 53%;
+  position: relative;
+  bottom: 19%;
+  height: 51%;
+  width: 53%;
+  overflow: scroll;
 }
 
 a {
@@ -55,4 +78,20 @@ a {
     color: maroon;
     text-decoration: none;
     font-weight: bold;
+}
+h3{
+  position: absolute;
+  bottom: 270px;
+  width: 53%;
+  border: 2px solid white;
+  background-color: white;
+  color: tan;
+}
+h4 {
+  position: absolute;
+bottom: 127px;
+width: 53%;
+border: 2px solid white;
+background-color: white;
+color: tan;
 }
